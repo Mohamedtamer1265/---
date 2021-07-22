@@ -1,0 +1,117 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: var(--main-color);   
+}
+:root {
+    --main-color : #06171F;
+    --secondry-color : #009B7F;
+}
+/* globel rules */
+/* small */
+@media (min-width:768px) {
+    .container{
+        width: 720px;
+    }}
+/* medium */
+@media (min-width:992px) {
+    .container{
+        width: 970px;
+    }
+  
+}
+/* large */
+@media (min-width:1200px) {
+    .container{
+        width: 1170px;
+    }}
+/* globel rules */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*start*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h3{
+  color: white;
+}
+nav span {
+    width: 54px;
+    height: 1px;
+    margin-top: 8px;
+    display: block;
+    margin-top: 5px;
+    background: white;
+    text-align: center;
+    margin-left: 21px;
+}
+nav img{
+    width: 40px;
+}
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.home-container .box:last-child{
+    margin-top: 20px;
+}
+.home-container .box{
+    background-color: var(--secondry-color);
+    border-radius: 14px;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-top: 22px;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+.home-container .box h3 {
+color: white;
+font-weight: 500;
+color: var(--main-color);
+line-height: 1.4;
+}
+.home-container .box p{
+color: white;
+}
+@media (max-width:565px){
+    .home-container .box {
+        width: 400px;
+    }
+}
+@media (max-width:464px){
+    .home-container .box {
+        width: 350px;
+    }
+}
+@media (max-width:408px){
+    .home-container .box {
+        width: 300px;
+    }
+}
+@media (max-width:350px){
+    .home-container .box {
+        width: 250px;
+    }
+}
+@media (max-width:300px){
+    .home-container .box {
+        width: 220px;
+    }
+}
+@media (max-width:262px){
+    .home-container .box {
+        width: 200px;
+    }
+}

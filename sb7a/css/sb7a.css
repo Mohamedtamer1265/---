@@ -1,0 +1,158 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: var(--main-color);   
+}
+:root {
+    --main-color : #06171F;
+    --secondry-color : #009B7F;
+}
+/* globel rules */
+/* small */
+@media (min-width:768px) {
+    .container{
+        width: 720px;
+    }}
+/* medium */
+@media (min-width:992px) {
+    .container{
+        width: 970px;
+    }
+  
+}
+/* large */
+@media (min-width:1200px) {
+    .container{
+        width: 1170px;
+    }}
+/* globel rules */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*start*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h3{
+  color: white;
+  text-align: center;
+}
+nav span {
+    width: 54px;
+    height: 1px;
+    margin-top: 8px;
+    display: block;
+    margin-top: 5px;
+    background: white;
+    text-align: center;
+    margin-left: 35px;
+}
+nav img{
+    width: 40px;
+}
+/*sb7a*/
+.number {
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 15%;
+color: white;
+font-size: 40px;
+background-color: #08202B;
+width: 220px;
+text-align: center;
+padding: 4px 10px;
+}
+.tap{
+    width: 30px;
+}
+.button {
+    background-color: var(--secondry-color);
+    width: 300px;
+    height: 300px;
+    border-radius: 145px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+}
+.button:hover img{
+    display: none;
+    transition: 0.3s;  
+}
+.button:hover {
+    background-color: #3aa390; 
+    transition: 0.3s;  
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.button img{
+    width: 20px;
+}
+.button .click {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.resett{
+    display: flex;
+    flex-direction: column;
+    left: 80%;
+    bottom: 60%;
+    position: absolute;
+}
+.resett .reset {
+    background-color: var(--secondry-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.resett .reset:hover {
+    background-color: #3aa390; 
+    transition: 0.3s;  
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.resett p {
+    color: rgb(190, 188, 188);
+}
+.resett span {
+    color: var(--secondry-color);
+}
+@media(max-width:443px){
+    .button {
+        width: 260px ;
+        height: 260px;
+        left: 50%;
+        bottom: 35%;
+        transform: translate(-50%, -35%);
+    }
+    .resett .reset {
+        width: 35px;
+        height: 35px;
+    }
+    .resett p{
+        display: none;
+    }
+}
+@media (max-width:346px){
+    .button{
+        width: 240px;
+        height: 240px;
+    }
+}
+@media (max-width:262px){
+    .button{
+        width: 210px;
+        height: 210px;
+    }
+}
