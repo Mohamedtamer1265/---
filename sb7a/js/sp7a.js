@@ -15,6 +15,6 @@ btns.forEach(function (element){
 });
 document.querySelector(".increase").addEventListener("click", function vibrate()
 {
-    navigator.vibrate(5);
+    navigator.vibrate(2);
 })
     
