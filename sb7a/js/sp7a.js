@@ -12,9 +12,9 @@ btns.forEach(function (element){
         }
         number.textContent = currentItem;
     })
-})
-document.querySelector(".increase").addEventListener("click", function(numb){
-    navigator.vibrate(numb)
-    numb = 1000;
+});
+document.querySelector(".increase").addEventListener("click", function vibrate()
+{
+    navigator.vibrate(300);
 })
     
