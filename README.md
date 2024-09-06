@@ -4,4 +4,5 @@ Technologies:
  - HTML
  - CSS
  -  JavaScript
-   Our goal for this site is to Implement the design with HTML and CSS to ensure a responsive and user-friendly interface
+
+ Our goal for this site is to Implement the design with HTML and CSS to ensure a responsive and user-friendly interface
