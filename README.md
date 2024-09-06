@@ -1,2 +1,7 @@
 # Know-your-Religion
-Simple site that contains Morning and evening remembrances and And it has a rosary. 
+A site that contains Morning and evening remembrances and it has a rosary. 
+Technologies:
+ - HTML
+ - CSS
+ -  JavaScript
+   Our goal for this site is to Implement the design with HTML and CSS to ensure a responsive and user-friendly interface
